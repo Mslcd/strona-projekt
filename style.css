@@ -3,7 +3,7 @@ body{
     url(./images/bgimg.png);
     background-repeat: no-repeat;
     /* background-position-y: 450px; */
-    background-size: 1920px;
+    background-size: cover;
     background-attachment:  fixed;
     font-family: 'Syne Mono', monospace;
     
