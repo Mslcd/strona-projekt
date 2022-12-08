@@ -50,23 +50,31 @@ body{
     margin: 0 auto;
     padding: 20px;
 }
+
 .project{
     width: 100%;
     height: 100%;
-    /* justify-content: center;
-    align-content: center;
-    margin: 0 auto;
-    padding: 0;*/
+    opacity: 1;
+    transition: .5s ease;
+    display: block;
+    backface-visibility: hidden;
+}
+.project:hover{
+    opacity: .5;
 }
 
 .spacer{
-    height: 1000px;
+    height: 800px;
 }
 .header{
     text-align: center;
-    font-size: 48px;
+    font-size: 44px;
 }
 .bio{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    font-size: 24px;
     display: flex;
     word-wrap: normal;
 }
