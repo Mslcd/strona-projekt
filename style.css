@@ -11,7 +11,7 @@ body{
     padding: 0;
 }
 .container{
-    background-color:white;
+    background-color:rgb(177, 177, 177);
     align-content: center;
     justify-content: center;
 }
