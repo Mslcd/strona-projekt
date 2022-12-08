@@ -2,8 +2,9 @@ body{
     background-image:
     url(./images/bgimg.png);
     background-repeat: no-repeat;
-    background-position-y: 450px;
-    background-size: contain;
+    /* background-position-y: 450px; */
+    background-size: 1920px;
+    background-attachment:  fixed;
     font-family: 'Syne Mono', monospace;
     
     margin: 0 auto;
