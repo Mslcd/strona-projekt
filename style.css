@@ -11,7 +11,7 @@ body{
     padding: 0;
 }
 .container{
-    background-color:rgb(177, 177, 177);
+    background-color:rgb(255, 255, 255);
     align-content: center;
     justify-content: center;
 }
@@ -37,7 +37,8 @@ body{
     border-radius: 15px;
 }
 .menuitem:hover{
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(199, 199, 199);
+    font-weight: bolder;
 }
 .project_images{
     display: grid;
@@ -64,4 +65,8 @@ body{
 .header{
     text-align: center;
     font-size: 48px;
+}
+.bio{
+    display: flex;
+    word-wrap: normal;
 }
