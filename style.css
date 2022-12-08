@@ -35,11 +35,15 @@ body{
 .menuitem{
     text-align: center;
     border-radius: 15px;
+    transition: .3s ease;
 }
+.menuitem:link{ text-decoration: none; color:black; }
+.menuitem:visited{ text-decoration: none; color:black;}
 .menuitem:hover{
     background-color: rgb(199, 199, 199);
-    font-weight: bolder;
 }
+.menuitem:active{ text-decoration: none; color:black; }
+
 .project_images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,7 +72,7 @@ body{
 }
 .header{
     text-align: center;
-    font-size: 44px;
+    font-size: 40px;
 }
 .bio{
     padding-left: 100px;
