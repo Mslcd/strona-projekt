@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image:
     url(./images/bgimg.png);
@@ -74,11 +77,20 @@ body{
     text-align: center;
     font-size: 40px;
 }
-.bio{
+.text{
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
     font-size: 24px;
     display: flex;
     word-wrap: normal;
+}
+.footer{
+    display: grid;
+    background-color: grey;
+    height: 60px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
